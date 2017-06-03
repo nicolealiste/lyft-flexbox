@@ -1,12 +1,74 @@
+body {
+  margin: 0 auto;
+  font-size: 16px;
+  line-height: 1.71429;
+  background-color: #fff;
+  font-family: 'Open Sans', sans-serif;
+ }
+
+img {
+  vertical-align: middle;
+}
+
+a {
+  color: #373B47;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #FF00BF;
+}
+
 .menu{
 	background-color: #333447;
 	position: fixed;
 	top: 0;
 	left: 0;
 	width: 100%;
+	display: flex;
+	align-items: center;
+}
+
+.menu.flex-container{
+	justify-content: flex-end;
 }
 
 /* Contenedor Flexbox*/
 .flex-container{
     display: flex;
 }
+nav{
+	text-align: center;
+	padding: 20px;
+}
+
+.logo{
+    margin-right: auto;
+    margin-left: auto;
+    width: 4rem;
+    height: 2.83871rem;
+    
+}
+.logo-container{
+	margin-right: auto;
+	margin-left: 50px;
+	justify-content: flex-start;
+}
+
+.link {
+	font-size: 1.125rem;
+  	color: #fff;	
+  	padding: 21px;
+}
+
+.btn-home {
+  	color: #fff;
+  	border: 1px solid currentColor;
+  	margin-right: 50px;
+  	border-radius: .5rem;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    padding-bottom: .5rem;
+    padding-top: .5rem;
+}
+
