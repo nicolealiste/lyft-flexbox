@@ -77,3 +77,29 @@ nav{
     width: 100%;
 }
 
+footer{
+	background-color: #333447;
+	height: 400px;
+}
+
+.titulos{
+  	color: white;
+	display: flex;
+	align-self: baseline;
+	padding: 20px 0px 0px 50px;
+	text-transform: uppercase;
+}
+
+.list{
+	display: flex;
+	flex-direction: row;
+	padding: 20px 50px 0 50px;
+}
+
+.lista{
+	display: flex;
+	flex-direction: column;
+	text-decoration: none;
+	color: white;
+}
+
