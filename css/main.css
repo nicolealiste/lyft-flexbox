@@ -20,7 +20,7 @@ a:hover {
 }
 
 .menu{
-	background-color: #333447;
+	background-color: rgba(225 255 255 0);
 	position: fixed;
 	top: 0;
 	left: 0;
@@ -70,5 +70,10 @@ nav{
     padding-left: 1rem;
     padding-bottom: .5rem;
     padding-top: .5rem;
+}
+
+.bgFondo{
+	max-width: 100%;
+    width: 100%;
 }
 
