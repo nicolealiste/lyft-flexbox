@@ -77,6 +77,45 @@ nav{
     width: 100%;
 }
 
+
+.informacion {
+    display: flex;
+    background: linear-gradient(#76278f, #2B1E66);
+    margin: 0;
+    color: white;
+}
+
+.container-info {
+    margin-top: 100px;
+    margin-left: 150px;
+}
+
+.phone {
+    margin-right: 100px;
+    width: 500px;
+    
+}
+
+.texto-info{
+    font-size: 14px;
+    margin-bottom: 50px;
+}
+
+.titulo {
+    font-size: 25px;
+}
+
+video {
+    width: 100%;
+    margin-top: -138px;
+    /* margin-bottom: 2%; */
+     z-index: -9999999; 
+     background-size: cover;
+     position: center;
+     position: absolute;
+}
+
+
 footer{
 	background-color: #333447;
 	height: 400px;
