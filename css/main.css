@@ -19,6 +19,13 @@ a:hover {
   color: #FF00BF;
 }
 
+h4,
+h1,
+p
+{
+    margin-left: 20px;
+}
+
 .menu{
 	background-color: rgba(225 255 255 0);
 	position: fixed;
@@ -132,18 +139,19 @@ footer{
 	height: 400px;
 }
 
-.titulos{
-  	color: white;
+.footer-izq{
 	display: flex;
-	align-self: baseline;
-	padding: 20px 0px 0px 50px;
-	text-transform: uppercase;
+	justify-content: space-between;
+    background-color: #323345;
+    color: white
 }
 
 .list{
 	display: flex;
+	justify-content: space-around;
 	flex-direction: row;
-	padding: 20px 50px 0 50px;
+	margin-top: 20px;
+	margin-left: 50px;
 }
 
 .lista{
@@ -153,3 +161,16 @@ footer{
 	color: white;
 }
 
+.app-store img {
+	margin-right: 100px;
+    cursor: pointer;
+    width: 135px;
+    height: 40px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.app-store {
+    margin-top: 50px;
+}
