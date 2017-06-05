@@ -33,6 +33,14 @@ a:hover {
 	justify-content: flex-end;
 }
 
+.menuColor{ 
+	background-color:#fff; 
+	color: #ff00bf; /*no cambia el color del texto*/
+}
+
+.menuSinColors{ 
+	background-color:transparent;
+}
 /* Contenedor Flexbox*/
 .flex-container{
     display: flex;
@@ -86,14 +94,17 @@ nav{
 }
 
 .container-info {
-    margin-top: 100px;
+    margin-top: 50px;
     margin-left: 150px;
+    display: flex;
+    flex-direction: column;
 }
 
-.phone {
-    margin-right: 100px;
-    width: 500px;
-    
+.phone{    
+    height: 500px;
+    width: auto;
+    display: flex;
+    align-self: center;
 }
 
 .texto-info{
